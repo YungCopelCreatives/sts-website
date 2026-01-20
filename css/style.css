@@ -4,13 +4,17 @@
     --secondary: #FFFFFF;
     --light: #EDF1FC;
     --dark: #17224D;
+<<<<<<< HEAD
     --whatsapp: #25D366;
+=======
+>>>>>>> afc30c896ab9a52dc4dc52051189c4e287a0c9ab
 }
 
 .fw-medium {
     font-weight: 600 !important;
 }
 
+<<<<<<< HEAD
 /* WhatsApp Button */
 .whatsapp-float {
     position: fixed;
@@ -62,6 +66,8 @@ img.loaded {
     opacity: 1;
 }
 
+=======
+>>>>>>> afc30c896ab9a52dc4dc52051189c4e287a0c9ab
 .back-to-top {
     position: fixed;
     display: none;
