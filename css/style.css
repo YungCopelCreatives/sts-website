@@ -4,21 +4,17 @@
     --secondary: #FFFFFF;
     --light: #EDF1FC;
     --dark: #17224D;
-<<<<<<< HEAD
     --whatsapp: #25D366;
-=======
->>>>>>> afc30c896ab9a52dc4dc52051189c4e287a0c9ab
 }
 
 .fw-medium {
     font-weight: 600 !important;
 }
 
-<<<<<<< HEAD
 /* WhatsApp Button */
 .whatsapp-float {
     position: fixed;
-    bottom: 80px;
+    bottom: 120px;
     right: 45px;
     background-color: var(--whatsapp);
     color: white;
@@ -56,9 +52,9 @@ h5 { font-size: 1.1rem; }
 p { font-size: 0.95rem; }
 .lead { font-size: 1.1rem; }
 
-/* Image lazy loading */
+/* Image lazy loading - disabled for now */
 img {
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.3s;
 }
 
@@ -66,8 +62,27 @@ img.loaded {
     opacity: 1;
 }
 
-=======
->>>>>>> afc30c896ab9a52dc4dc52051189c4e287a0c9ab
+/* Gallery Cards */
+.gallery-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.gallery-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.gallery-card .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
 .back-to-top {
     position: fixed;
     display: none;
